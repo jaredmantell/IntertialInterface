@@ -122,17 +122,18 @@ Our approach leverages:
 
 ## Project Structure
 
+```
 embodied-movement/
-|-- src/
-|   |-- demo.py
-|   |-- MovenetDepthai.py
-|   |-- MovenetDepthaiEdge.py
-|   |-- MovenetRenderer.py
-|-- docs/
-|   |-- paper.pdf
-|-- examples/
-    |-- demo_scenarios/
-
+└── src/
+    ├── demo.py
+    ├── MovenetDepthai.py
+    ├── MovenetDepthaiEdge.py
+    └── MovenetRenderer.py
+└── docs/
+    └── paper.pdf
+└── examples/
+    └── demo_scenarios/
+```
 ## Artistic Inspirations
 - "The Inheritance" (2015) - Movement in large spaces and aesthetics of wide-ranging movements
 - "Farbklangschichten" - Kinesthetic experiences with colors and sounds
