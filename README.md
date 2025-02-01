@@ -15,12 +15,14 @@ Our post-structural approach to interaction design is characterized by:
 - Prioritization of fluid, interpretative experiences
 
 [📄 Read the Full Research Paper](https://github.com/jaredmantell/IntertialInterface/blob/main/Final%20Paper_Embodied%20Movement_Exploring%20Digital%20Responsive%20Interactions_Fall%202024_0.1-1.pdf)
+![image](https://github.com/user-attachments/assets/036af8f7-d41c-4b75-a8ba-eb2add8f8d07)
 
 ## Overview
 
 A motion-responsive visualization system that runs on RGB images and transforms physical movements into artistic expression. Features two interaction modes:
 - **Exploratory Mode**: Designed for general users, enabling intuitive engagement
 - **Advanced Mode**: Targeted at professional movement practitioners, providing detailed biomechanical feedback
+![image](https://github.com/user-attachments/assets/e2718005-2a8b-483d-904b-c7b12f0ff2c8)
 
 ## System Architecture
 
@@ -63,6 +65,7 @@ Command line arguments:
 | c      | Toggle crop region     |
 | f      | Show/hide FPS         |
 | q/ESC  | Exit                  |
+![image](https://github.com/user-attachments/assets/876a0b4c-4ecc-4bd1-8976-f40865cf9ee6)
 
 ## Technical Implementation
 
