@@ -1,9 +1,14 @@
 # Embodied Movement: Digital Responsive Interactions
 
-Research exploring human movement and digital interaction through tangible user interfaces, developed at UC Berkeley School of Information. This project investigates how digital systems can translate physical movement into meaningful sensory experiences.
+Research exploring the intersection of human movement and digital interaction through tangible user interfaces. Developed at UC Berkeley's Berkeley Center for New Media (BCNM) under Dr. Kimiko Ryokai's INFO C262: Tangible User Interfaces course, this project investigates how digital systems can translate physical movement into meaningful sensory experiences.
+
+This work contributes to the field of human-computer interaction by exploring:
+- Real-time movement-to-art translation systems
+- Accessible interaction design for both novice and expert users
+- Integration of motion capture with artistic expression
+- Novel approaches to embodied computing
 
 [📄 Read the Full Research Paper](https://github.com/jaredmantell/IntertialInterface/blob/main/Final%20Paper_Embodied%20Movement_Exploring%20Digital%20Responsive%20Interactions_Fall%202024_0.1-1.pdf)
-
 ![Demo](img/demo.gif)
 
 ## Overview
