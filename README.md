@@ -5,7 +5,7 @@ Research exploring the democratization of artistic expression through motion-res
 This research examines:
 - How digital movement representation through intertial tracking creates new movement qualities when translated into media art
 - How technological interfaces alter participants' spatial experiences
-- How kinesthetic tracking influences participants' affective responses through ludic, gesture-reactive visualization
+- How different kinesthetic tracking methods influence participants' affective responses through ludic, gesture-reactive visualization
 - Methods for disrupting participants' daily repertoire of mobility through digital art
 
 Our post-structural approach to interaction design is characterized by:
