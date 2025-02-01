@@ -4,6 +4,8 @@ Research exploring the democratization of artistic expression through motion-res
 
 [📄 Read the Full Research Paper](https://github.com/jaredmantell/IntertialInterface/blob/main/Final%20Paper_Embodied%20Movement_Exploring%20Digital%20Responsive%20Interactions_Fall%202024_0.1-1.pdf)
 
+![Demo](img/dance.gif)
+
 ## Research Focus
 This research examines:
 - How digital movement representation through inertial tracking creates new movement qualities when translated into media art
@@ -24,6 +26,10 @@ A motion-responsive visualization system that runs on RGB images and transforms 
 - **Exploratory Mode**: Designed for general users, enabling intuitive engagement with flowing visuals
 - **Advanced Mode**: Targeted at professional movement practitioners, providing detailed biomechanical feedback
 
+![Professional Dancers Scenario](https://github.com/user-attachments/assets/036af8f7-d41c-4b75-a8ba-eb2add8f8d07)
+
+![Casual Users Scenario](https://github.com/user-attachments/assets/e2718005-2a8b-483d-904b-c7b12f0ff2c8)
+
 ## System Architecture
 
 ### Motion Tracking
@@ -32,6 +38,8 @@ A motion-responsive visualization system that runs on RGB images and transforms 
 - Accelerometer (ADXL345) integration for precise motion data
 - Multi-person tracking capabilities for collective interaction
 - Edge detection and gesture recognition systems
+
+![Edge Detection Method](https://github.com/user-attachments/assets/876a0b4c-4ecc-4bd1-8976-f40865cf9ee6)
 
 ### Visualization
 - TouchDesigner for real-time visual feedback
@@ -91,6 +99,15 @@ while True:
     if renderer.waitKey(1) == 27:
         break
 
+## Architecture: Host mode vs Edge mode
+The cropping algorithm determines from the body detected in frame N, on which region of frame N+1 the inference will run. The mode (Host or Edge) describes where this algorithm runs:
+- In Host mode, the cropping algorithm runs on the host CPU. Only this mode allows images or video files as input. The flow of information between the host and the device is bi-directional: in particular, the host sends frames or cropping instructions to the device.
+- In Edge mode, the cropping algorithm runs on the MyriadX. So, in this mode, all the functional bricks of MoveNet (inference, determination of the cropping region for next frame, cropping) are executed on the device. The only information exchanged are the body keypoints and optionally the camera video frame.
+
+Note: in either mode, when using the color camera, you can choose to disable the sending of the video frame to the host, by specifying "rgb_laconic" instead of "rgb" as input source.
+
+![Architecture](img/movenet_nodes.png)
+
 ## Research Methods
 Our approach leverages:
 1. Multiple motion capture technologies
@@ -101,14 +118,6 @@ Our approach leverages:
 6. IDEO Model Cards for scenario development
 7. Tarot Cards of Tech for obstacle anticipation
 8. Body storming and interactive prototyping
-
-## Environment Considerations
-The system has been tested in various contexts:
-- Indoor studio spaces
-- Public areas (coffee shops, student unions)
-- Performance venues
-- Campus outdoor spaces
-- Gallery installations
 
 ## Project Structure
 embodied-movement/
@@ -123,10 +132,10 @@ embodied-movement/
     └── demo_scenarios/
 
 ## Artistic Inspirations
-- "The Inheritance" (2015) - Movement in large spaces
-- "Farbklangschichten" - Kinesthetic color experiences
-- "Colored Shadows" - Movement representation
-- "The Treachery of Sanctuary" (2012) - Motion tracking artistry
+- "The Inheritance" (2015) - Movement in large spaces and aesthetics of wide-ranging movements
+- "Farbklangschichten" - Kinesthetic experiences with colors and sounds
+- "Colored Shadows" - Movement representation through dancing shadows
+- "The Treachery of Sanctuary" (2012) - Interactive shadow transformation
 
 ## Citation
 @inproceedings{thiel2024embodied,
