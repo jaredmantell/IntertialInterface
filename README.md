@@ -1,20 +1,18 @@
 # Embodied Movement: Digital Responsive Interactions
 
-Research exploring the democratization of artistic expression through motion-responsive technology. Developed at UC Berkeley's Berkeley Center for New Media (BCNM) under Dr. Kimiko Ryokai's INFO C262: Tangible User Interfaces course, this project investigates how technological interfaces can function as generative platforms for personal and collective emotional expression, rather than mere instrumental tools.
+Research exploring the democratization of artistic expression through motion-responsive technology. Developed at UC Berkeley's Berkeley Center for New Media (BCNM) under Dr. Kimiko Ryokai's INFO C262: Tangible User Interfaces course, this project investigates how to leverage unconvential input loops to make digital interfaces function as generative platforms for personal & collective emotional expression.
 
 This research examines:
-- How digital movement representation through motion tracking creates new movement qualities when translated into media art
+- How digital movement representation through intertial tracking creates new movement qualities when translated into media art
 - How technological interfaces alter participants' spatial experiences
-- The influence of movement tracking on emotional responses
+- How kinesthetic tracking influences participants' affective responses through ludic, gesture-reactive visualization
 - Methods for disrupting participants' daily repertoire of mobility through digital art
-- Approaches to making movement-based visual art accessible
 
 Our post-structural approach to interaction design is characterized by:
 - Non-hierarchical interaction models
 - Emphasis on emergent, participant-driven experiences
 - Rejection of binary conceptualizations of "correct" interaction
 - Prioritization of fluid, interpretative experiences
-- Removal of linguistic and technical barriers to engagement
 
 [📄 Read the Full Research Paper](https://github.com/jaredmantell/IntertialInterface/blob/main/Final%20Paper_Embodied%20Movement_Exploring%20Digital%20Responsive%20Interactions_Fall%202024_0.1-1.pdf)
 
