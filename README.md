@@ -120,6 +120,8 @@ Our approach leverages:
 8. Body storming and interactive prototyping
 
 ## Project Structure
+
+```plaintext
 embodied-movement/ —— src/ | —— demo.py | —— MovenetDepthai.py | —— MovenetDepthaiEdge.py | —— MovenetRenderer.py
                    |—— docs/ | —— paper.pdf
                    └—— examples/ └—— demo_scenarios/
@@ -132,10 +134,10 @@ embodied-movement/ —— src/ | —— demo.py | —— MovenetDepthai.py | —
 
 ## Citation
 @inproceedings{thiel2024embodied,
-  title={Embodied Movement: Exploring Digital Responsive Interactions},
-  author={Thiel, Sonja and Jung, Gyuyeon and Mantell, Jared and Maldonado, Marissa and Bondi, Paloma},
-  booktitle={UC Berkeley School of Information},
-  year={2024}
+    title={Embodied Movement: Exploring Digital Responsive Interactions},
+    author={Thiel, Sonja and Jung, Gyuyeon and Mantell, Jared and Maldonado, Marissa and Bondi, Paloma},
+    booktitle={UC Berkeley School of Information},
+    year={2024}
 }
 
 ## Research Team
