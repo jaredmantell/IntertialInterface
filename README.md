@@ -83,7 +83,7 @@ python3 demo.py
 | q/ESC  | Exit                  |
 
 ### Implementation Example
-from MovenetDepthai import MovenetDepthai
+```from MovenetDepthai import MovenetDepthai
 from MovenetDepthaiEdge import MovenetDepthai
 
 pose = MovenetDepthai(input_src="rgb", 
@@ -97,7 +97,7 @@ while True:
     if frame is None: break
     frame = renderer.draw(frame, body)
     if renderer.waitKey(1) == 27:
-        break
+        break```
 
 ## Architecture: Host mode vs Edge mode
 The cropping algorithm determines from the body detected in frame N, on which region of frame N+1 the inference will run. The mode (Host or Edge) describes where this algorithm runs:
