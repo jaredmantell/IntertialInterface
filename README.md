@@ -1,28 +1,28 @@
 # Embodied Movement: Digital Responsive Interactions
 
-Research exploring the democratization of artistic expression through motion-responsive technology. Developed at UC Berkeley's Berkeley Center for New Media (BCNM) under Dr. Kimiko Ryokai's INFO C262: Tangible User Interfaces course, this project investigates how to leverage unconvential input loops to make digital interfaces function as generative platforms for personal & collective emotional expression.
-
-This research examines:
-- How digital movement representation through intertial tracking creates new movement qualities when translated into media art
-- How technological interfaces alter participants' spatial experiences
-- How different kinesthetic tracking methods influence participants' affective responses through ludic, gesture-reactive visualization
-- Methods for disrupting participants' daily repertoire of mobility through digital art
-
-Our post-structural approach to interaction design is characterized by:
-- Non-hierarchical interaction models
-- Emphasis on emergent, participant-driven experiences
-- Rejection of binary conceptualizations of "correct" interaction
-- Prioritization of fluid, interpretative experiences
+Research exploring the democratization of artistic expression through motion-responsive technology. Developed at UC Berkeley's Berkeley Center for New Media (BCNM) under Dr. Kimiko Ryokai's INFO C262: Tangible User Interfaces course, this project investigates how to leverage unconventional input loops to make digital interfaces function as generative platforms for personal & collective emotional expression.
 
 [📄 Read the Full Research Paper](https://github.com/jaredmantell/IntertialInterface/blob/main/Final%20Paper_Embodied%20Movement_Exploring%20Digital%20Responsive%20Interactions_Fall%202024_0.1-1.pdf)
-![image](https://github.com/user-attachments/assets/036af8f7-d41c-4b75-a8ba-eb2add8f8d07)
+
+## Research Focus
+This research examines:
+- How digital movement representation through inertial tracking creates new movement qualities when translated into media art
+- How technological interfaces alter participants' spatial experiences, particularly focusing on flow states and collective movement patterns
+- How different kinesthetic tracking methods influence participants' affective responses through ludic, gesture-reactive visualization
+- Methods for disrupting participants' daily repertoire of mobility through digital art
+- Exploration of non-verbal engagement with media in public and private spaces
+
+Our post-structural approach to interaction design is characterized by:
+- Non-hierarchical interaction models emphasizing emergent experiences
+- Emphasis on flowing, participant-driven experiences that break traditional structures
+- Rejection of binary conceptualizations of "correct" interaction
+- Integration of vulnerability and collective expression through movement
+- Prioritization of fluid, interpretative experiences over prescriptive interactions
 
 ## Overview
-
 A motion-responsive visualization system that runs on RGB images and transforms physical movements into artistic expression. Features two interaction modes:
-- **Exploratory Mode**: Designed for general users, enabling intuitive engagement
+- **Exploratory Mode**: Designed for general users, enabling intuitive engagement with flowing visuals
 - **Advanced Mode**: Targeted at professional movement practitioners, providing detailed biomechanical feedback
-![image](https://github.com/user-attachments/assets/e2718005-2a8b-483d-904b-c7b12f0ff2c8)
 
 ## System Architecture
 
@@ -30,29 +30,37 @@ A motion-responsive visualization system that runs on RGB images and transforms 
 - MoveNet pose estimation with DepthAI hardware (OAK-1, OAK-D)
 - Real-time movement tracking using Kinect Camera 
 - Accelerometer (ADXL345) integration for precise motion data
+- Multi-person tracking capabilities for collective interaction
+- Edge detection and gesture recognition systems
 
 ### Visualization
 - TouchDesigner for real-time visual feedback
-- Point-cloud visualization system
-- Gesture-reactive visual elements
+- Point-cloud visualization with reactive harmonics
+- Gesture-reactive visual elements including:
+  - Seed, period, and amplitude modulation
+  - Dynamic roughness and exponent mapping
+  - Real-time color theory integration
+  - Fluid design approaches aligning with breaking structure
+- Support for both single and multi-user interactions
+- Real-time average value computation for group movement visualization
 
-## Installation
+## Technical Implementation
 
-Install required Python packages:
+### Installation
 python3 -m pip install -r requirements.txt
 
 ### Hardware Requirements
 - Kinect Camera
-- ADXL345 Accelerometer
+- ADXL345 Accelerometer 
 - Arduino Nano
 - DepthAI compatible device (OAK-1, OAK-D)
+- Optional: LED lighting for ambient feedback
+- Projection system for visual output
 
-## Usage
-
-Basic demo:
+### Basic Usage
 python3 demo.py
 
-Command line arguments:
+### Command Line Arguments
 -e, --edge            Enable Edge processing mode
 -m MODEL             Select model ('thunder'/'lightning')
 -i INPUT             Input source ('rgb'/'rgb_laconic'/file path)
@@ -65,15 +73,9 @@ Command line arguments:
 | c      | Toggle crop region     |
 | f      | Show/hide FPS         |
 | q/ESC  | Exit                  |
-![image](https://github.com/user-attachments/assets/876a0b4c-4ecc-4bd1-8976-f40865cf9ee6)
 
-## Technical Implementation
-
-The system uses two main classes:
-
-# For Host mode:
+### Implementation Example
 from MovenetDepthai import MovenetDepthai
-# For Edge mode:
 from MovenetDepthaiEdge import MovenetDepthai
 
 pose = MovenetDepthai(input_src="rgb", 
@@ -90,14 +92,23 @@ while True:
         break
 
 ## Research Methods
-
 Our approach leverages:
-
 1. Multiple motion capture technologies
 2. Real-time visualization systems
 3. User-centered design principles
 4. Speculative design methodology
 5. Extensive scenario testing
+6. IDEO Model Cards for scenario development
+7. Tarot Cards of Tech for obstacle anticipation
+8. Body storming and interactive prototyping
+
+## Environment Considerations
+The system has been tested in various contexts:
+- Indoor studio spaces
+- Public areas (coffee shops, student unions)
+- Performance venues
+- Campus outdoor spaces
+- Gallery installations
 
 ## Project Structure
 embodied-movement/
@@ -111,8 +122,13 @@ embodied-movement/
 └── examples/
     └── demo_scenarios/
 
-## Citation
+## Artistic Inspirations
+- "The Inheritance" (2015) - Movement in large spaces
+- "Farbklangschichten" - Kinesthetic color experiences
+- "Colored Shadows" - Movement representation
+- "The Treachery of Sanctuary" (2012) - Motion tracking artistry
 
+## Citation
 @inproceedings{thiel2024embodied,
   title={Embodied Movement: Exploring Digital Responsive Interactions},
   author={Thiel, Sonja and Jung, Gyuyeon and Mantell, Jared and Maldonado, Marissa and Bondi, Paloma},
