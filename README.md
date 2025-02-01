@@ -120,16 +120,9 @@ Our approach leverages:
 8. Body storming and interactive prototyping
 
 ## Project Structure
-embodied-movement/
-  ├── src/
-  │     ├── demo.py
-  │     ├── MovenetDepthai.py
-  │     ├── MovenetDepthaiEdge.py
-  │     └── MovenetRenderer.py
-  ├── docs/
-  │     └── paper.pdf
-  └── examples/
-        └── demo_scenarios/
+embodied-movement/ —— src/ | —— demo.py | —— MovenetDepthai.py | —— MovenetDepthaiEdge.py | —— MovenetRenderer.py
+                   |—— docs/ | —— paper.pdf
+                   └—— examples/ └—— demo_scenarios/
 
 ## Artistic Inspirations
 - "The Inheritance" (2015) - Movement in large spaces and aesthetics of wide-ranging movements
