@@ -119,33 +119,25 @@ Our approach leverages:
 7. Tarot Cards of Tech for obstacle anticipation
 8. Body storming and interactive prototyping
 
+
 ## Project Structure
 
-```plaintext
 embodied-movement/
-  ├── src/
-  │     ├── demo.py
-  │     ├── MovenetDepthai.py
-  │     ├── MovenetDepthaiEdge.py
-  │     └── MovenetRenderer.py
-  ├── docs/
-  │     └── paper.pdf
-  └── examples/
-        └── demo_scenarios/```
+|-- src/
+|   |-- demo.py
+|   |-- MovenetDepthai.py
+|   |-- MovenetDepthaiEdge.py
+|   |-- MovenetRenderer.py
+|-- docs/
+|   |-- paper.pdf
+|-- examples/
+    |-- demo_scenarios/
 
 ## Artistic Inspirations
 - "The Inheritance" (2015) - Movement in large spaces and aesthetics of wide-ranging movements
 - "Farbklangschichten" - Kinesthetic experiences with colors and sounds
 - "Colored Shadows" - Movement representation through dancing shadows
 - "The Treachery of Sanctuary" (2012) - Interactive shadow transformation
-
-## Citation
-@inproceedings{thiel2024embodied,
-    title={Embodied Movement: Exploring Digital Responsive Interactions},
-    author={Thiel, Sonja and Jung, Gyuyeon and Mantell, Jared and Maldonado, Marissa and Bondi, Paloma},
-    booktitle={UC Berkeley School of Information},
-    year={2024}
-}
 
 ## Research Team
 - Sonja Thiel, UC Berkeley
@@ -158,6 +150,9 @@ embodied-movement/
 - Prof. Kimiko Ryokai, UC Berkeley
 - Vivian Chan, UC Berkeley 
 - Christopher Sakuma, University of Pennsylvania
+
+## Citation
+Thiel, S., Jung, G., Mantell, J., Maldonado, M., & Bondi, P. (2024). Embodied Movement: Exploring Digital Responsive Interactions. UC Berkeley School of Information.
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
