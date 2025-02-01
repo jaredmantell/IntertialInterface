@@ -1,6 +1,6 @@
 # Embodied Movement: Digital Responsive Interactions
 
-Research exploring the democratization of artistic expression through motion-responsive technology. Developed at UC Berkeley's Berkeley Center for New Media (BCNM) under Dr. Kimiko Ryokai's INFO C262: Tangible User Interfaces course, this project investigates how to leverage unconventional input loops to make digital interfaces function as generative platforms for personal & collective emotional expression.
+Research exploring novel methods of of artistic expression through motion-responsive technology. Developed at UC Berkeley's Berkeley Center for New Media (BCNM) under Dr. Kimiko Ryokai's INFO C262: Tangible User Interfaces course, this project investigates how to leverage unconventional input loops to make digital interfaces function as generative platforms for personal & collective emotional expression.
 
 [📄 Read the Full Research Paper](https://github.com/jaredmantell/IntertialInterface/blob/main/Final%20Paper_Embodied%20Movement_Exploring%20Digital%20Responsive%20Interactions_Fall%202024_0.1-1.pdf)
 
@@ -121,15 +121,15 @@ Our approach leverages:
 
 ## Project Structure
 embodied-movement/
-├── src/
-│   ├── demo.py
-│   ├── MovenetDepthai.py
-│   ├── MovenetDepthaiEdge.py
-│   └── MovenetRenderer.py
-├── docs/
-│   └── paper.pdf
-└── examples/
-    └── demo_scenarios/
+  ├── src/
+  │     ├── demo.py
+  │     ├── MovenetDepthai.py
+  │     ├── MovenetDepthaiEdge.py
+  │     └── MovenetRenderer.py
+  ├── docs/
+  │     └── paper.pdf
+  └── examples/
+        └── demo_scenarios/
 
 ## Artistic Inspirations
 - "The Inheritance" (2015) - Movement in large spaces and aesthetics of wide-ranging movements
